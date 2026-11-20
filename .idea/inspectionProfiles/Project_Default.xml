@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="opencv-python" />
+          <option value="numpy" />
+          <option value="torch" />
+          <option value="pyttsx3" />
+          <option value="uvicorn" />
+          <option value="PyYAML" />
+          <option value="transformers" />
+          <option value="fastapi" />
+          <option value="pydantic" />
+          <option value="ninja" />
+          <option value="torchvision" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

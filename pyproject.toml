@@ -1,0 +1,9 @@
+[project]
+name = "floorbench"
+version = "1.0.0"
+description = "An absolute floor for forecasting: Kolmogorov-Sinai entropy as a benchmark reference"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

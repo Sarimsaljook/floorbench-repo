@@ -1,0 +1,20 @@
+seed: 0
+device: auto
+
+system:
+  names: []                        # empty means every registered system
+  n_train_trajectories: 24
+  n_eval_trajectories: 8
+  trajectory_length: 4096
+  transient_length: 2048
+  lyapunov_steps: 60000
+  lyapunov_transient: 10000
+  lyapunov_renorm_every: 10
+  samples_per_lyapunov_time: 25.0
+  points_per_dominant_period: 40.0
+
+
+encoder:
+  precisions: [0.8, 0.4, 0.2, 0.1, 0.05]
+  warmup_steps: 128
+  entropy_order: 3

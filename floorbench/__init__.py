@@ -1,0 +1,1 @@
+"""Floor-referenced forecasting benchmark."""

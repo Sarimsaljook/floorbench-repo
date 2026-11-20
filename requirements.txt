@@ -1,0 +1,9 @@
+numpy>=1.26,<3
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+pyyaml>=6.0
+torch>=2.2
+pytest>=8.0
+# Chronos-Bolt (only needed for the foundation model runs)
+chronos-forecasting
